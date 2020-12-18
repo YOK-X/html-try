@@ -248,6 +248,7 @@ h2.title {
 .end {
     min-height: 631px;
     padding: 88px 0 88px 0;
+    background-color: #efefef;
 }
 
 .end .container {
@@ -255,4 +256,87 @@ h2.title {
     flex-direction: column;
     justify-content: center;
     align-items:center
+}
+
+.end .gift_text {
+    margin-top: 42px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+    text-align: center;
+}
+
+.end .button_gift {
+    margin-top: 48px;
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.21);
+    font-family: RobotoCondensed;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.web {
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+
+.web .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web .text1 {
+    margin-top: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.web .text2 {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.web .text3 {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.footer {
+    height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.footer .ahref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .ahref a, .rozd {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    color: #888888;
+    margin: 5px;
+    text-align: center;
 }
