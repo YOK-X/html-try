@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -49,7 +53,6 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: "Roboto Condensed";
     font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;
@@ -330,6 +333,7 @@ h2.title {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Roboto;
 }
 
 .footer .ahref a, .rozd {
