@@ -115,7 +115,7 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
@@ -124,7 +124,11 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: white;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
@@ -200,3 +204,55 @@ h2.title {
     z-index: -1;
 }
 
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/layer_33_194.jpg') center center/cover no-repeat;
+
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.end {
+    min-height: 631px;
+    padding: 88px 0 88px 0;
+}
+
+.end .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
